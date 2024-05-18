@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FurDef Name="RWFB_Fur">
+        <defName>RWFB_Furskin</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Child>Things/Pawn/Humanlike/Bodies/Naked_FurChild</Child>
+            <Baby>Things/Pawn/Humanlike/Bodies/Naked_FurChild</Baby><!-- Always covered by swaddled graphic -->
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Badger</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Badgers/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Badgers/Bodies/Naked_Female</Female>
+            <Hulk>Things/Woodlanders/Badgers/Bodies/Naked_Hulk</Hulk>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Dormouse</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Dormice/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Dormice/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Dormice/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/Dormice/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Ermine</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Ermine/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Ermine/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/Ermine/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Ferret</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Ferrets/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Ferrets/Bodies/Naked_Female</Female>
+            <Hulk>Things/Vermin/Ferrets/Bodies/Naked_Hulk</Hulk>
+            <Fat>Things/Vermin/Ferrets/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Vermin/Ferrets/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_GreyFox</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/GreyFox/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/GreyFox/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/GreyFox/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_GreySquirrel</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/GreySquirrels/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/GreySquirrels/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/GreySquirrels/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/GreySquirrels/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Hare</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Hares/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Hares/Bodies/Naked_Female</Female>
+            <Thin>Things/Woodlanders/Hares/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Hedgehog</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Hedgehogs/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Hedgehogs/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Hedgehogs/Bodies/Naked_Fat</Fat>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Marten</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Martens/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Martens/Bodies/Naked_Female</Female>
+            <Hulk>Things/Vermin/Martens/Bodies/Naked_Hulk</Hulk>
+            <Thin>Things/Vermin/Martens/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Mole</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Moles/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Moles/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Moles/Bodies/Naked_Fat</Fat>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Mouse</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Mice/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Mice/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Mice/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/Mice/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Rabbit</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Rabbits/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Rabbits/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Rabbits/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/Rabbits/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Rat</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Rats/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Rats/Bodies/Naked_Female</Female>
+            <Fat>Things/Vermin/Rats/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Vermin/Rats/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_RedFox</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/RedFox/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/RedFox/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/RedFox/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_RedSquirrel</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/RedSquirrels/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/RedSquirrels/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/RedSquirrels/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/RedSquirrels/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_RiverOtter</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/RiverOtters/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/RiverOtters/Bodies/Naked_Female</Female>
+            <Hulk>Things/Woodlanders/RiverOtters/Bodies/Naked_Hulk</Hulk>
+            <Thin>Things/Woodlanders/RiverOtters/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Sable</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Sables/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Sables/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/Sables/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_SeaOtter</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/SeaOtters/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/SeaOtters/Bodies/Naked_Female</Female>
+            <Hulk>Things/Woodlanders/SeaOtters/Bodies/Naked_Hulk</Hulk>
+            <Thin>Things/Woodlanders/SeaOtters/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Shrew</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/Shrews/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/Shrews/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/Shrews/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/Shrews/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Stoat</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Stoats/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Stoats/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/Stoats/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_TreeRat</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/TreeRats/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/TreeRats/Bodies/Naked_Female</Female>
+            <Fat>Things/Vermin/TreeRats/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Vermin/TreeRats/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_WaterVole</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Woodlanders/WaterVoles/Bodies/Naked_Male</Male>
+            <Female>Things/Woodlanders/WaterVoles/Bodies/Naked_Female</Female>
+            <Fat>Things/Woodlanders/WaterVoles/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Woodlanders/WaterVoles/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Wearet</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Hulk>Things/Vermin/Wearets/Bodies/Naked_Hulk</Hulk>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Weasel</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Weasels/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Weasels/Bodies/Naked_Female</Female>
+            <Thin>Things/Vermin/Weasels/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Wildcat</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Wildcats/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Wildcats/Bodies/Naked_Female</Female>
+            <Hulk>Things/Vermin/Wildcats/Bodies/Naked_Hulk</Hulk>
+            <Thin>Things/Vermin/Wildcats/Bodies/Naked_Thin</Thin>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+    <FurDef ParentName="RWFB_Fur">
+        <defName>RWFB_Furskin_Wolverine</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Vermin/Wolverines/Bodies/Naked_Male</Male>
+            <Female>Things/Vermin/Wolverines/Bodies/Naked_Female</Female>
+            <Hulk>Things/Vermin/Wolverines/Bodies/Naked_Hulk</Hulk>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+</Defs>

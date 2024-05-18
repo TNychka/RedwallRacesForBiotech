@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XenotypeDef Abstract="True" Name="RWFB_RedwallXeno">
+        <defName>RWFB_RedwallXeno</defName>
+        <iconPath>UI/Icons/Xenotypes/Yttakin</iconPath>
+        <combatPowerFactor>1.0</combatPowerFactor>
+        <genes>
+            <li>Hair_BaldOnly</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Badger_Xeno</defName>
+        <label>Badger</label>
+        <description>Badgers are large beasts with long lifespans, immense strength, and a tremendous sense of honor. In terms of leadership, Badgers often take on a role as head of the Long Patrol or guardians of an abbey.\n\nAlthough Badgers are powerful allies, they can also be dangerous when roused. Many badgers are know to suffer the bloodwrath, which can make them a threat to their own forces sometimes.</description>
+        <descriptionShort>Badgers are large beasts with long lifespans, immense strength, and a tremendous sense of honor.</descriptionShort>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>RWFB_Badger_FurGene</li>
+            <li>RWFB_Badger_Tail</li>
+            <li>VoiceRoar</li>
+
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+
+            <li>WoundHealing_Slow</li>
+            <li>Aggression_HyperAggressive</li>
+            <li>MoveSpeed_Slow</li>
+            <li>MeleeDamage_Strong</li>
+            <li>KindInstinct</li>
+            <li>Robust</li>
+            <li>Pain_Reduced</li>
+            <li>Unstoppable</li>
+            <li>AptitudeRemarkable_Melee</li>
+            <li>AptitudePoor_Shooting</li>
+            <li>Nearsighted</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Hulk</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Dormouse_Xeno</defName>
+        <label>Dormouse</label>
+        <description>Dormice are friendly, fuzzy-tailed creatures closely related to squirrels, not mice as it may seem. For the most part, they are simple in tastes, and care greatly for other beasts; a few have also been known for not being very bright. They seem to have a love for food; many have worked in the kitchens, and nearly all of them are pudgy or overweight.</description>
+        <descriptionShort>Dormice are friendly, fuzzy-tailed creatures closely related to squirrels, not mice as it may seem.</descriptionShort>
+        <genes>
+            <li>RWFB_Dormouse_FurGene</li>
+            <li>RWFB_Dormouse_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Learning_Slow</li>
+            <li>AptitudeRemarkable_Cooking</li>
+            <li>AptitudeStrong_Animals</li>
+            <li>AptitudePoor_Intellectual</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Ermine_Xeno</defName>
+        <label>Ermine</label>
+        <description>Ermines are more aggressive than their brown Stoat cousins. They are swifter and sharper of claw and are known to be excellent trackers.</description>
+        <descriptionShort>Ermines are more aggressive than their brown Stoat cousins.</descriptionShort>
+        <genes>
+            <li>RWFB_Ermine_FurGene</li>
+            <li>RWFB_Ermine_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+
+            <li>Aggression_Aggressive</li>
+            <li>PsychicAbility_Dull</li>
+            <li>AptitudeStrong_Plants</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Melee</li>
+
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Ferret_Xeno</defName>
+        <label>Ferret</label>
+        <description>Ferrets are considered evil vermin. Ferrets are decent fighters, on the level of weasels and stoats, superior to rats but inferior to foxes.</description>
+        <descriptionShort>Ferrets are considered evil vermin. Ferrets are decent fighters, on the level of weasels and stoats, superior to rats but inferior to foxes.</descriptionShort>
+        <genes>
+            <li>RWFB_Ferret_FurGene</li>
+            <li>RWFB_Ferret_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Gray</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_DarkSaturatedReddish</li>
+
+            <li>Aggression_Aggressive</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Intellectual</li>
+            <li>AptitudePoor_Plants</li>
+
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_GreyFox_Xeno</defName>
+        <label>GreyFox</label>
+        <description>Foxes are, without exception, villainous vermin and are well known for their slyness and cunning. Male foxes are considered better warriors than the average vermin, while many female foxes are healers, seers, or both.\n\nGrey Foxes are slightly smaller than their red cousins.</description>
+        <descriptionShort>Foxes are, without exception, villainous vermin and are well known for their slyness and cunning.</descriptionShort>
+        <genes>
+            <li>RWFB_GreyFox_FurGene</li>
+            <li>RWFB_GreyFox_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Aggression_Aggressive</li>
+            <li>Learning_Fast</li>
+            <li>AptitudeRemarkable_Shooting</li>
+            <li>AptitudeRemarkable_Intellectual</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudeStrong_Social</li>
+            <li>AptitudePoor_Mining</li>
+            <li>AptitudePoor_Cooking</li>
+            <li>AptitudePoor_Plants</li>
+            <li>AptitudePoor_Animals</li>
+            <li>Mood_Pessimist</li>
+
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_GreySquirrel_Xeno</defName>
+        <label>GreySquirrel</label>
+        <description>Squirrels can be fierce fighters and are usually considered to be on the "good" side. All squirrels are excellent climbers. Among squirrels, the term "treewhiffler" is used to describe champion climbers, the best of the best.\n\nGrey Squirrels are larger than their red cousins, but otherwise not much different. Rumor has it that Red Squirrels are more ingenuitive when it comes to building structures, but the Grey Squirrels don't believe that for a moment.</description>
+        <descriptionShort>Squirrels can be fierce fighters and are usually considered to be on the "good" side. All squirrels are excellent climbers.</descriptionShort>
+        <genes>
+            <li>RWFB_GreySquirrel_FurGene</li>
+            <li>RWFB_GreySquirrel_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Pain_Reduced</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudePoor_Construction</li>
+            <li>AptitudeTerrible_Mining</li>
+
+            <li>Body_Thin</li>
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Hare_Xeno</defName>
+        <label>Hare</label>
+        <description>Hares are generally known for being fun-loving, very talkative, sometimes slightly obnoxious, and mostly having very long names. Their vast appetites are legendary. In spite of their apparent casual attitude however, most hares are very dangerous and courageous fighters and can be extremely dependable in battle. For this reason, they are often chosen by Badger Lords to form their elite army, the Long Patrol.\n\nHares are sometimes mistaken for Rabbits, which frustrates them greatly. Rabbits are smaller, weaker, and generally not warriors. To a Hare, being called a Rabbit is akin to being called a coward.</description>
+        <descriptionShort>Hares are generally known for being fun-loving, very talkative, sometimes slightly obnoxious, and mostly having very long names. Their vast appetites are legendary.</descriptionShort>
+        <genes>
+            <li>RWFB_Hare_FurGene</li>
+            <li>RWFB_Hare_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudeTerrible_Cooking</li>
+            <li>AptitudeTerrible_Social</li>
+            <li>MoveSpeed_Quick</li>
+            <li>KindInstinct</li>
+            <li>Mood_Optimist</li>
+            <li>Libido_High</li>
+
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Hedgehog_Xeno</defName>
+        <label>Hedgehog</label>
+        <description>Hedgehogs are prickly beasts that come from all walks of life, from warriors to cooks to riverbeasts. They are typically easy-going and friendly, though a few have been known to become eccentric or insane in old age. It is traditional (though not exclusive) for abbey cellarkeepers to be hedgehogs.</description>
+        <descriptionShort>Hedgehogs are prickly beasts that come from all walks of life, from warriors to cooks to riverbeasts.</descriptionShort>
+        <genes>
+            <li>RWFB_Hedgehog_FurGene</li>
+            <li>RWFB_Hedgehog_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Mood_Optimist</li>
+            <li>AptitudePoor_Shooting</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Marten_Xeno</defName>
+        <label>Marten</label>
+        <description>Pine Martens are fairly large vermin and are less common than most other varieties. Due to their size and rarity, Martens usualy hold positions of authority.</description>
+        <descriptionShort>Pine Martens are fairly large vermin and are less common than most other varieties. Due to their size and rarity, Martens usualy hold positions of authority.</descriptionShort>
+        <genes>
+            <li>RWFB_Marten_FurGene</li>
+            <li>RWFB_Marten_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Mood_Pessimist</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Crafting</li>
+            <li>AptitudeStrong_Social</li>
+
+            <li>Body_Hulk</li>
+            <li>Body_Thin</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Mole_Xeno</defName>
+        <label>Mole</label>
+        <description>Moles are sensible beasts with a quaint dialect, a penchant for industrial work, and are generally illiterate. It is commonly known that Moles are afraid of heights and water, and also get emotional over the simplest of things.</description>
+        <descriptionShort>Moles are sensible beasts with a quaint dialect, a penchant for industrial work, and are generally illiterate.</descriptionShort>
+        <genes>
+            <li>RWFB_Mole_FurGene</li>
+            <li>RWFB_Mole_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeRemarkable_Mining</li>
+            <li>AptitudeStrong_Crafting</li>
+            <li>AptitudePoor_Social</li>
+            <li>Learning_Slow</li>
+            <li>Nearsighted</li>
+            <li>MoveSpeed_Slow</li>
+            <li>Robust</li>
+            <li>KindInstinct</li>
+            <li>Aggression_DeadCalm</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Mouse_Xeno</defName>
+        <label>Mouse</label>
+        <description>Mice have always been known as "good" creatures, and while the majority are peaceful, there are more than a few Mouse warriors. But most mice prefer the quiet life and have been known to make good healers.</description>
+        <descriptionShort>Mice have always been known as "good" creatures, and while the majority are peaceful, there are more than a few Mouse warriors.
+        </descriptionShort>
+        <genes>
+            <li>RWFB_Mouse_FurGene</li>
+            <li>RWFB_Mouse_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeRemarkable_Medicine</li>
+            <li>Delicate</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Rabbit_Xeno</defName>
+        <label>Rabbit</label>
+        <description>Rabbits are surprisingly uncommon and are often pacifists. Rabbits tend to put heavy emphasis on manners and doing everything properly. Hares frequently get mistaken for Rabbits, which upsets both tribes greatly. Rabbits think Hares are rude and loud gluttons, and they aren't really wrong about those assertions.</description>
+        <descriptionShort>Rabbits are surprisingly uncommon and are often pacifists.</descriptionShort>
+        <genes>
+            <li>RWFB_Rabbit_FurGene</li>
+            <li>RWFB_Rabbit_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeStrong_Social</li>
+            <li>AptitudeStrong_Artistic</li>
+            <li>AptitudePoor_Cooking</li>
+            <li>AptitudePoor_Melee</li>
+            <li>AptitudePoor_Shooting</li>
+            <li>MoveSpeed_Quick</li>
+            <li>KindInstinct</li>
+            <li>Mood_Optimist</li>
+            <li>Libido_High</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Rat_Xeno</defName>
+        <label>Rat</label>
+        <description>Rats are almost exclusively evil vermin. And of all the vermin, Rats are portrayed as the most numerous, smallest, weakest, and stupidest, with several often defeated by one warrior. Consequently, they are often seen as the lowest sort of "paw" soldier in vermin hordes. Exceptions exist, of course, with several Rats being fearsome warriors and leaders. And there are rumors of a "Great Rat" breed that would be terrifying for most normal vermin to face in battle.</description>
+        <descriptionShort>Rats are almost exclusively evil vermin. And of all the vermin, Rats are portrayed as the most numerous, smallest, weakest, and stupidest, with several often defeated by one warrior.
+        </descriptionShort>
+        <genes>
+            <li>RWFB_Rat_FurGene</li>
+            <li>RWFB_Rat_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Immunity_Strong</li>
+            <li>Delicate</li>
+            <li>StrongStomach</li>
+            <li>RobustDigestion</li>
+            <li>Learning_Slow</li>
+            <li>AptitudeStrong_Medicine</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_RedFox_Xeno</defName>
+        <label>RedFox</label>
+        <description>Foxes are, without exception, villainous vermin and are well known for their slyness and cunning. Male foxes are considered better warriors than the average vermin, while many female foxes are healers, seers, or both.\n\nRed Foxes are slightly larger than their grey cousins.</description>
+        <descriptionShort>Foxes are, without exception, villainous vermin and are well known for their slyness and cunning.</descriptionShort>
+        <genes>
+            <li>RWFB_RedFox_FurGene</li>
+            <li>RWFB_RedFox_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_ReddishBrown</li>
+
+            <li>Aggression_Aggressive</li>
+            <li>Learning_Fast</li>
+            <li>AptitudeRemarkable_Shooting</li>
+            <li>AptitudeRemarkable_Intellectual</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudeStrong_Social</li>
+            <li>AptitudePoor_Mining</li>
+            <li>AptitudePoor_Cooking</li>
+            <li>AptitudePoor_Plants</li>
+            <li>AptitudePoor_Animals</li>
+            <li>Mood_Pessimist</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_RedSquirrel_Xeno</defName>
+        <label>Red Squirrel</label>
+        <description>Squirrels can be fierce fighters and are usually considered to be on the "good" side. All squirrels are excellent climbers. Among squirrels, the term "treewhiffler" is used to describe champion climbers, the best of the best.\n\nRed Squirrels are smaller than their grey cousins, but otherwise not much different. Rumor has it that Red Squirrels are more inventive when it comes to building structures, but the Grey Squirrels don't believe that for a moment.</description>
+        <descriptionShort>Squirrels can be fierce fighters and are usually considered to be on the "good" side. All squirrels are excellent climbers.</descriptionShort>
+        <combatPowerFactor>1.1</combatPowerFactor>
+        <genes>
+            <li>RWFB_RedSquirrel_FurGene</li>
+            <li>RWFB_RedSquirrel_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_ReddishBrown</li>
+
+            <li>AptitudeRemarkable_Shooting</li>
+            <li>AptitudeStrong_Construction</li>
+            <li>AptitudeTerrible_Mining</li>
+            <li>MeleeDamage_Weak</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_RiverOtter_Xeno</defName>
+        <label>RiverOtter</label>
+        <description>River Otters are large and powerful warriors, but generally jovial beasts. Few things can keep an Otter down for long and they are well known for their skill with javelin and sling.</description>
+        <descriptionShort>River Otters are large and powerful warriors, but generally jovial beasts.</descriptionShort>
+        <genes>
+            <li>RWFB_RiverOtter_FurGene</li>
+            <li>RWFB_RiverOtter_Tail</li>
+            <li>VoiceRoar</li>
+
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_DarkBlack</li>
+
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Construction</li>
+            <li>AptitudeTerrible_Plants</li>
+            <li>AptitudeTerrible_Animals</li>
+            <li>Robust</li>
+
+            <li>Body_Hulk</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Sable_Xeno</defName>
+        <label>Sable</label>
+        <description>Sables are closely related to Martens, but have darker fur and are even less common. Sables are devious and powerful, willing to do just about anything to get what they want. As far as vermin go, a Sable is nearly as formidable as a Wildcat, though a bit smaller.</description>
+        <descriptionShort>Sables are closely related to Martens, but have darker fur and are even less common.</descriptionShort>
+        <genes>
+            <li>RWFB_Sable_FurGene</li>
+            <li>RWFB_Sable_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Mood_Pessimist</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Crafting</li>
+            <li>AptitudeStrong_Social</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_SeaOtter_Xeno</defName>
+        <label>SeaOtter</label>
+        <description>Sea Otters are big and strong, well-built for the tough life of a sailor. Sea Otters often take up sailing and form crews to hunt down vermin pirates.</description>
+        <descriptionShort>Sea Otters are big and strong, well-built for the tough life of a sailor.</descriptionShort>
+        <genes>
+            <li>RWFB_SeaOtter_FurGene</li>
+            <li>RWFB_SeaOtter_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_DarkBlack</li>
+
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Construction</li>
+            <li>AptitudeTerrible_Plants</li>
+            <li>AptitudeTerrible_Animals</li>
+            <li>Robust</li>
+
+            <li>Body_Hulk</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Shrew_Xeno</defName>
+        <label>Shrew</label>
+        <description>Shrews are generally short and argumentative creatures as well as being fierce warriors.\n\nMost Shrews are part of the Gousim, which is made up of nomadic tribes or clans that travel by logboat.</description>
+        <descriptionShort>Shrews are generally short and argumentative creatures as well as being fierce warriors.</descriptionShort>
+        <genes>
+            <li>RWFB_Shrew_FurGene</li>
+            <li>RWFB_Shrew_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_Gray</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeStrong_Construction</li>
+            <li>AptitudeStrong_Crafting</li>
+            <li>Aggression_Aggressive</li>
+
+            <li>Body_Fat</li>
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Stoat_Xeno</defName>
+        <label>Stoat</label>
+        <description>Stoats are long-tailed cousins of Weasels and Ferrets, and they are found in many vermin hordes.</description>
+        <descriptionShort>Stoats are long-tailed cousins of Weasels and Ferrets, and they are found in many vermin hordes.</descriptionShort>
+        <genes>
+            <li>RWFB_Stoat_FurGene</li>
+            <li>RWFB_Stoat_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+
+            <li>PsychicAbility_Dull</li>
+            <li>AptitudeStrong_Shooting</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_TreeRat_Xeno</defName>
+        <label>TreeRat</label>
+        <description>Tree Rats are even smaller and weaker than normal rats, but they are also aggressive and vicious. Tree Rats like to camouflage themselves with paints and tattoos, then strike in the dark.\n\nTree Rats are primitive even for vermin. Most live in a tribes and have yet to discover smithing.</description>
+        <description>Tree Rats are even smaller and weaker than normal rats, but they are also aggressive and vicious.</description>
+        <genes>
+            <li>RWFB_TreeRat_FurGene</li>
+            <li>RWFB_TreeRat_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Immunity_Strong</li>
+            <li>Aggression_Aggressive</li>
+            <li>LowSleep</li>
+            <li>Delicate</li>
+            <li>StrongStomach</li>
+            <li>RobustDigestion</li>
+            <li>Learning_Slow</li>
+            <li>AptitudeStrong_Medicine</li>
+            <li>AptitudeTerrible_Crafting</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+            <li>Body_Fat</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_WaterVole_Xeno</defName>
+        <label>WaterVole</label>
+        <description>Water Voles are not as common as mice, but exhibit a similar personality type.\n\nWater Voles tend to live along riverbanks and ply small boats. They are not nearly as well known for their boating skills as Shrews are.</description>
+        <descriptionShort>Water Voles are not as common as mice, but exhibit a similar personality type.</descriptionShort>
+        <genes>
+            <li>RWFB_WaterVole_FurGene</li>
+            <li>RWFB_WaterVole_Tail</li>
+            <li>Voice_Human</li>
+
+
+            <li>Hair_Blonde</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_Gray</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_MidBlack</li>
+
+            <li>AptitudeStrong_Medicine</li>
+            <li>AptitudeStrong_Construction</li>
+            <li>Aggression_Aggressive</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+            <li>Body_Fat</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Wearet_Xeno</defName>
+        <label>Wearet</label>
+        <description>A Wearet is a sinister cross-breed and possibly mutant creature that appears to be a combination of a weasel, a stoat, and/or a ferret. They are extremely large, primitive, ugly, have little neck, no ears, and have a tendency to slobber a lot. Wearets are known to be immensely powerful warriors.\n\nWearets are not common and are unlikely to be found in a settlement of their own. They are more likely to be found as leaders of a vermin horde, possibly worshipped as a primitive god.</description>
+        <descriptionShort>A Wearet is a sinister cross-breed and possibly mutant creature that appears to be a combination of a weasel, a stoat, and/or a ferret.</descriptionShort>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>RWFB_Wearet_FurGene</li>
+            <li>RWFB_Wearet_Tail</li>
+            <li>VoiceRoar</li>
+
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+
+            <li>Aggression_HyperAggressive</li>
+            <li>PsychicAbility_Dull</li>
+            <li>MoveSpeed_Slow</li>
+            <li>MeleeDamage_Strong</li>
+            <li>Robust</li>
+            <li>Pain_Reduced</li>
+            <li>Unstoppable</li>
+            <li>AptitudeRemarkable_Melee</li>
+            <li>AptitudePoor_Shooting</li>
+            <li>Nearsighted</li>
+
+            <li>Body_Hulk</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Weasel_Xeno</defName>
+        <label>Weasel</label>
+        <description>Weasels are often found in vermin hordes, and occasionally are the horde leaders themselves. They are among the more common varieties of vermin and are smaller than their cousins, the Ferrets and Stoats.</description>
+        <descriptionShort>Weasel are often found in vermin hordes, and occasionally are the horde leaders themselves.</descriptionShort>
+        <genes>
+            <li>RWFB_Weasel_FurGene</li>
+            <li>RWFB_Weasel_Tail</li>
+            <li>Voice_Human</li>
+
+            <li>Hair_Gray</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_ReddishBrown</li>
+
+            <li>Aggression_Aggressive</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudeStrong_Shooting</li>
+            <li>AptitudeStrong_Intellectual</li>
+            <li>AptitudePoor_Plants</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Wildcat_Xeno</defName>
+        <label>Wildcat</label>
+        <description>Wildcats are large, fierce beasts and almost always leaders. Wildcats are among the most vicious of vermin and are not to be taken lightly.</description>
+        <descriptionShort>Wildcats are large, fierce beasts and almost always leaders. Wildcats are among the most vicious of vermin and are not to be taken lightly.</descriptionShort>
+        <genes>
+            <li>RWFB_Wildcat_FurGene</li>
+            <li>RWFB_Wildcat_Tail</li>
+            <li>VoiceRoar</li>
+
+            <li>Hair_Gray</li>
+            <li>Hair_SandyBlonde</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_MidBlack</li>
+
+            <li>Mood_Pessimist</li>
+            <li>MinTemp_SmallIncrease</li>
+            <li>Aggression_Aggressive</li>
+            <li>MeleeDamage_Strong</li>
+            <li>Sleepy</li>
+            <li>AptitudeRemarkable_Melee</li>
+            <li>AptitudeRemarkable_Shooting</li>
+
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+            <li>Body_Hulk</li>
+        </genes>
+    </XenotypeDef>
+    <XenotypeDef ParentName="RWFB_RedwallXeno">
+        <defName>RWFB_Wolverine_Xeno</defName>
+        <label>Wolverine</label>
+        <description>Wolverines are carnivores, and in some cases, cannibals. They are ferocious, vicious, big beasts, often compared in terms of strength fully grown male badgers.\n\nWolveries come from the cold north and have thick fur for dealing with cold temperatures, but they don't do so well in the summer heat.</description>
+        <descriptionShort>Wolverines are carnivores, and in some cases, cannibals. They are ferocious, vicious, big beasts, often compared in terms of strength fully grown male badgers.</descriptionShort>
+        <genes>
+            <li>RWFB_Wolverine_FurGene</li>
+            <li>RWFB_Wolverine_Tail</li>
+            <li>VoiceRoar</li>
+            
+            <li>Hair_Gray</li>
+            <li>Hair_DarkSaturatedReddish</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_MidBlack</li>
+            
+            <li>MinTemp_SmallDecrease</li>
+            <li>MaxTemp_SmallDecrease</li>
+            <li>Aggression_HyperAggressive</li>
+            <li>MeleeDamage_Strong</li>
+            <li>Robust</li>
+            <li>Pain_Reduced</li>
+            <li>Unstoppable</li>
+            <li>AptitudeRemarkable_Melee</li>
+            <li>AptitudeTerrible_Artistic</li>
+            <li>Mood_Pessimist</li>
+            
+            <li>Body_Standard</li>
+            <li>Body_Hulk</li>
+        </genes>
+    </XenotypeDef>
+</Defs>

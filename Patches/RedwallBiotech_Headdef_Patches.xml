@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[defName="BadgerSkull"]</xpath>
+        <attribute>Name</attribute>
+        <value>BadgerSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="BadgerSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Badger_FurGene</li>
+            </requiredGenes> 
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "BadgerFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BadgerSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "DormouseSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>DormouseSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="DormouseSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Dormouse_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "DormouseFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>DormouseSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "ErmineSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>ErmineSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="ErmineSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Ermine_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "ErmineFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ErmineSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "FerretSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>FerretSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="FerretSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Ferret_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "FerretFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>FerretSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "GreyFoxSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>GreyFoxSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="GreyFoxSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_GreyFox_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "GreyFoxFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>GreyFoxSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "GreySquirrelSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>GreySquirrelSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="GreySquirrelSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_GreySquirrel_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "GreySquirrelFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>GreySquirrelSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "HareSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>HareSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="HareSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Hare_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "HareFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>HareSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "HedgehogSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>HedgehogSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="HedgehogSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Hedgehog_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "HedgehogFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>HedgehogSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MartenSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>MartenSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="MartenSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Marten_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MartenFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>MartenSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MoleSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>MoleSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="MoleSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Mole_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MoleFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>MoleSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MouseSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>MouseSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="MouseSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Mouse_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "MouseFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>MouseSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RabbitSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>RabbitSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="RabbitSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Rabbit_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RabbitFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>RabbitSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RatSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>RatSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="RatSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Rat_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RatFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>RatSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RedFoxSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>RedFoxSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="RedFoxSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_RedFox_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RedFoxFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>RedFoxSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RedSquirrelSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>RedSquirrelSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="RedSquirrelSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_RedSquirrel_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RedSquirrelFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>RedSquirrelSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RiverOtterSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>RiverOtterSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="RiverOtterSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_RiverOtter_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "RiverOtterFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>RiverOtterSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "SableSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>SableSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="SableSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Sable_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "SableFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>SableSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "SeaOtterSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>SeaOtterSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="SeaOtterSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_SeaOtter_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "SeaOtterFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>SeaOtterSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "ShrewSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>ShrewSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="ShrewSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Shrew_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "ShrewFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ShrewSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "StoatSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>StoatSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="StoatSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Stoat_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "StoatFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>StoatSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "TreeRatSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>TreeRatSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="TreeRatSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_TreeRat_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "TreeRatFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>TreeRatSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WaterVoleSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>WaterVoleSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="WaterVoleSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_WaterVole_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WaterVoleFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>WaterVoleSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WearetSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>WearetSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="WearetSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Wearet_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WearetFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>WearetSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WeaselSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>WeaselSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="WeaselSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Weasel_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WeaselFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>WeaselSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WildcatSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>WildcatSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="WildcatSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Wildcat_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WildcatFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>WildcatSkull</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WolverineSkull")]</xpath>
+        <attribute>Name</attribute>
+        <value>WolverineSkull</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HeadTypeDef[defName="WolverineSkull"]/selectionWeight</xpath>
+        <value>
+            <requiredGenes>
+                <li>RWFB_Wolverine_FurGene</li>
+            </requiredGenes>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/HeadTypeDef[contains(defName, "WolverineFace")]</xpath>
+        <attribute>ParentName</attribute>
+        <value>WolverineSkull</value>
+    </Operation>
+    
+</Patch>

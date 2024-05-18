@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="HareBelly"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/PawnKindDef[starts-with(race, 'RWF')]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/PawnKindDef[starts-with(@ParentName, 'BaseRWF')]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[starts-with(defName,'RWF')]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <RWFB_Badger_Xeno>0.01</RWFB_Badger_Xeno>
+            <RWFB_Dormouse_Xeno>0.01</RWFB_Dormouse_Xeno>
+            <RWFB_Ermine_Xeno>0.01</RWFB_Ermine_Xeno>
+            <RWFB_Ferret_Xeno>0.01</RWFB_Ferret_Xeno>
+            <RWFB_GreyFox_Xeno>0.01</RWFB_GreyFox_Xeno>
+            <RWFB_GreySquirrel_Xeno>0.01</RWFB_GreySquirrel_Xeno>
+            <RWFB_Hare_Xeno>0.01</RWFB_Hare_Xeno>
+            <RWFB_Hedgehog_Xeno>0.01</RWFB_Hedgehog_Xeno>
+            <RWFB_Marten_Xeno>0.01</RWFB_Marten_Xeno>
+            <RWFB_Mole_Xeno>0.01</RWFB_Mole_Xeno>
+            <RWFB_Mouse_Xeno>0.01</RWFB_Mouse_Xeno>
+            <RWFB_Rabbit_Xeno>0.01</RWFB_Rabbit_Xeno>
+            <RWFB_Rat_Xeno>0.01</RWFB_Rat_Xeno>
+            <RWFB_RedFox_Xeno>0.01</RWFB_RedFox_Xeno>
+            <RWFB_RedSquirrel_Xeno>0.01</RWFB_RedSquirrel_Xeno>
+            <RWFB_RiverOtter_Xeno>0.01</RWFB_RiverOtter_Xeno>
+            <RWFB_SeaOtter_Xeno>0.01</RWFB_SeaOtter_Xeno>
+            <RWFB_Shrew_Xeno>0.01</RWFB_Shrew_Xeno>
+            <RWFB_Stoat_Xeno>0.01</RWFB_Stoat_Xeno>
+            <RWFB_TreeRat_Xeno>0.01</RWFB_TreeRat_Xeno>
+            <RWFB_WaterVole_Xeno>0.01</RWFB_WaterVole_Xeno>
+            <RWFB_Wearet_Xeno>0.01</RWFB_Wearet_Xeno>
+            <RWFB_Weasel_Xeno>0.01</RWFB_Weasel_Xeno>
+            <RWFB_Wildcat_Xeno>0.01</RWFB_Wildcat_Xeno>
+            <RWFB_Wolverine_Xeno>0.01</RWFB_Wolverine_Xeno>
+        </value>
+    </Operation>
+
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>false</enabled>
+        <label>Enable inheritability:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>*/XenotypeDef[@Name="RWFB_RedwallXeno"]</xpath>
+                <value>
+                    <inheritable>true</inheritable>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>*/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+                <value>
+                    <RWFB_Badger_Xeno>0.005</RWFB_Badger_Xeno>
+                    <RWFB_Dormouse_Xeno>0.005</RWFB_Dormouse_Xeno>
+                    <RWFB_Ermine_Xeno>0.005</RWFB_Ermine_Xeno>
+                    <RWFB_Ferret_Xeno>0.005</RWFB_Ferret_Xeno>
+                    <RWFB_GreyFox_Xeno>0.005</RWFB_GreyFox_Xeno>
+                    <RWFB_GreySquirrel_Xeno>0.005</RWFB_GreySquirrel_Xeno>
+                    <RWFB_Hare_Xeno>0.005</RWFB_Hare_Xeno>
+                    <RWFB_Hedgehog_Xeno>0.005</RWFB_Hedgehog_Xeno>
+                    <RWFB_Marten_Xeno>0.005</RWFB_Marten_Xeno>
+                    <RWFB_Mole_Xeno>0.005</RWFB_Mole_Xeno>
+                    <RWFB_Mouse_Xeno>0.005</RWFB_Mouse_Xeno>
+                    <RWFB_Rabbit_Xeno>0.005</RWFB_Rabbit_Xeno>
+                    <RWFB_Rat_Xeno>0.005</RWFB_Rat_Xeno>
+                    <RWFB_RedFox_Xeno>0.005</RWFB_RedFox_Xeno>
+                    <RWFB_RedSquirrel_Xeno>0.005</RWFB_RedSquirrel_Xeno>
+                    <RWFB_RiverOtter_Xeno>0.005</RWFB_RiverOtter_Xeno>
+                    <RWFB_SeaOtter_Xeno>0.005</RWFB_SeaOtter_Xeno>
+                    <RWFB_Sable_Xeno>0.005</RWFB_Sable_Xeno>
+                    <RWFB_Shrew_Xeno>0.005</RWFB_Shrew_Xeno>
+                    <RWFB_Stoat_Xeno>0.005</RWFB_Stoat_Xeno>
+                    <RWFB_TreeRat_Xeno>0.005</RWFB_TreeRat_Xeno>
+                    <RWFB_WaterVole_Xeno>0.005</RWFB_WaterVole_Xeno>
+                    <RWFB_Wearet_Xeno>0.005</RWFB_Wearet_Xeno>
+                    <RWFB_Weasel_Xeno>0.005</RWFB_Weasel_Xeno>
+                    <RWFB_Wildcat_Xeno>0.005</RWFB_Wildcat_Xeno>
+                    <RWFB_Wolverine_Xeno>0.005</RWFB_Wolverine_Xeno>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>false</enabled>
+        <label>Enable debug pawn kinds:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>*</xpath>
+                <value>
+                    <PawnKindDef Abstract="True" Name="RWFB_ColonistBase">
+                        <defaultFactionType>PlayerColony</defaultFactionType>
+                        <race>Human</race>
+                        <combatPower>30</combatPower>
+                        <isFighter>false</isFighter>
+                        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+                        <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+                        <forceNormalGearQuality>true</forceNormalGearQuality>
+                        <humanPregnancyChance>0.06</humanPregnancyChance>
+                        <chemicalAddictionChance>0.06</chemicalAddictionChance>
+                        <apparelTags>
+                            <li>IndustrialBasic</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+                        <apparelMoney>350~600</apparelMoney>
+                        <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+                        <techHediffsChance>0.03</techHediffsChance>
+                        <techHediffsMoney>50~800</techHediffsMoney>
+                        <techHediffsTags>
+                            <li>Poor</li>
+                            <li>Simple</li>
+                            <li>ImplantEmpireCommon</li>
+                        </techHediffsTags>
+                        <techHediffsDisallowTags>
+                            <li>PainCauser</li>
+                        </techHediffsDisallowTags>
+                        <initialResistanceRange>13~21</initialResistanceRange>
+                        <initialWillRange>0~0</initialWillRange>
+                        <useFactionXenotypes>false</useFactionXenotypes>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Badger_Xeno</defName>
+                        <label>Badger colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Badger_Xeno>999</RWFB_Badger_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Dormouse_Xeno</defName>
+                        <label>Dormouse colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Dormouse_Xeno>999</RWFB_Dormouse_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Ermine_Xeno</defName>
+                        <label>Ermine colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Ermine_Xeno>999</RWFB_Ermine_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Ferret_Xeno</defName>
+                        <label>Ferret colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Ferret_Xeno>999</RWFB_Ferret_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_GreyFox_Xeno</defName>
+                        <label>GreyFox colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_GreyFox_Xeno>999</RWFB_GreyFox_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_GreySquirrel_Xeno</defName>
+                        <label>GreySquirrel colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_GreySquirrel_Xeno>999</RWFB_GreySquirrel_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Hare_Xeno</defName>
+                        <label>Hare colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Hare_Xeno>999</RWFB_Hare_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Hedgehog_Xeno</defName>
+                        <label>Hedgehog colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Hedgehog_Xeno>999</RWFB_Hedgehog_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Marten_Xeno</defName>
+                        <label>Marten colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Marten_Xeno>999</RWFB_Marten_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Mole_Xeno</defName>
+                        <label>Mole colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Mole_Xeno>999</RWFB_Mole_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Mouse_Xeno</defName>
+                        <label>Mouse colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Mouse_Xeno>999</RWFB_Mouse_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Rabbit_Xeno</defName>
+                        <label>Rabbit colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Rabbit_Xeno>999</RWFB_Rabbit_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Rat_Xeno</defName>
+                        <label>Rat colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Rat_Xeno>999</RWFB_Rat_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_RedFox_Xeno</defName>
+                        <label>RedFox colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_RedFox_Xeno>999</RWFB_RedFox_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_RedSquirrel_Xeno</defName>
+                        <label>RedSquirrel colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_RedSquirrel_Xeno>999</RWFB_RedSquirrel_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_RiverOtter_Xeno</defName>
+                        <label>RiverOtter colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_RiverOtter_Xeno>999</RWFB_RiverOtter_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_SeaOtter_Xeno</defName>
+                        <label>SeaOtter colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_SeaOtter_Xeno>999</RWFB_SeaOtter_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Sable_Xeno</defName>
+                        <label>Sable colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Sable_Xeno>999</RWFB_Sable_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Shrew_Xeno</defName>
+                        <label>Shrew colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Shrew_Xeno>999</RWFB_Shrew_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Stoat_Xeno</defName>
+                        <label>Stoat colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Stoat_Xeno>999</RWFB_Stoat_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_TreeRat_Xeno</defName>
+                        <label>TreeRat colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_TreeRat_Xeno>999</RWFB_TreeRat_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_WaterVole_Xeno</defName>
+                        <label>WaterVole colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_WaterVole_Xeno>999</RWFB_WaterVole_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Wearet_Xeno</defName>
+                        <label>Wearet colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Wearet_Xeno>999</RWFB_Wearet_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Weasel_Xeno</defName>
+                        <label>Weasel colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Weasel_Xeno>999</RWFB_Weasel_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Wildcat_Xeno</defName>
+                        <label>Wildcat colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Wildcat_Xeno>999</RWFB_Wildcat_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                    <PawnKindDef ParentName="RWFB_ColonistBase">
+                        <defName>RWFB_Wolverine_Xeno</defName>
+                        <label>Wolverine colonist</label>
+                        <xenotypeSet>
+                            <xenotypeChances>
+                                <RWFB_Wolverine_Xeno>999</RWFB_Wolverine_Xeno>
+                            </xenotypeChances>
+                        </xenotypeSet>
+                    </PawnKindDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

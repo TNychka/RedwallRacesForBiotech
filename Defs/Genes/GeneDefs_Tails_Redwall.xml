@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="True" Name="RWFB_TailBase" ParentName="GeneTailBase">
+        <displayCategory>RWFB_Cosmetic_Genes</displayCategory>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Badger_Tail</defName>
+        <label>Badger Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Badgers/Tail/BadgerTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Dormouse_Tail</defName>
+        <label>Dormouse Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Dormice/Tail/DormouseTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Ermine_Tail</defName>
+        <label>Ermine Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Ermine/Tail/ErmineTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Ferret_Tail</defName>
+        <label>Ferret Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Ferrets/Tail/FerretTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_GreyFox_Tail</defName>
+        <label>GreyFox Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/GreyFox/Tail/GreyFoxTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(2.5, 2.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.3)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.3)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0.2, -0.1, 0.3)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(-0.2, -0.1, 0.3)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_GreySquirrel_Tail</defName>
+        <label>GreySquirrel Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/GreySquirrels/Tail/GreySquirrelTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.2, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.2, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Hare_Tail</defName>
+        <label>Hare Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Hares/Tail/HareTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Hedgehog_Tail</defName>
+        <label>Hedgehog Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Hedgehogs/Tail/HedgehogTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Marten_Tail</defName>
+        <label>Marten Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Martens/Tail/MartenTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Mole_Tail</defName>
+        <label>Mole Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Moles/Tail/MoleTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Mouse_Tail</defName>
+        <label>Mouse Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Mice/Tail/MouseTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Rabbit_Tail</defName>
+        <label>Rabbit Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Rabbits/Tail/RabbitTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Rat_Tail</defName>
+        <label>Rat Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Rats/Tail/RatTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_RedFox_Tail</defName>
+        <label>RedFox Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/RedFox/Tail/RedFoxTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(2.5, 2.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.3)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.3)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0.2, -0.1, 0.3)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(-0.2, -0.1, 0.3)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_RedSquirrel_Tail</defName>
+        <label>RedSquirrel Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/RedSquirrels/Tail/RedSquirrelTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.2, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.2, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_RiverOtter_Tail</defName>
+        <label>RiverOtter Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/RiverOtters/Tail/RiverOtterTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Sable_Tail</defName>
+        <label>Sable Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Sables/Tail/SableTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_SeaOtter_Tail</defName>
+        <label>SeaOtter Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/SeaOtters/Tail/SeaOtterTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Shrew_Tail</defName>
+        <label>Shrew Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/Shrews/Tail/ShrewTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0.0, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.0, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Stoat_Tail</defName>
+        <label>Stoat Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Stoats/Tail/StoatTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_TreeRat_Tail</defName>
+        <label>TreeRat Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/TreeRats/Tail/TreeRatTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_WaterVole_Tail</defName>
+        <label>WaterVole Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Woodlanders/WaterVoles/Tail/WaterVoleTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.1)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, -0.1, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Wearet_Tail</defName>
+        <label>Wearet Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Wearets/Tail/WearetTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Weasel_Tail</defName>
+        <label>Weasel Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Weasels/Tail/WeaselTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Wildcat_Tail</defName>
+        <label>Wildcat Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Wildcats/Tail/WildcatTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(2, 2)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.1, 0.2)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, -0.1, 0.2)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, -0.1, 0.2)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, -0.1, 0.2)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_TailBase">
+        <defName>RWFB_Wolverine_Tail</defName>
+        <label>Wolverine Tail</label>
+        <description>TODO</description>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Vermin/Wolverines/Tail/WolverineTail</texPath>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+</Defs>

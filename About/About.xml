@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <author>360Broscope</author>
+    <packageId>Broscope.RedwallRacesBiotech</packageId>
+    <name>Redwall Races for Biotech</name>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>Converts Redwall races to full-fledged biotech races</description>
+    <modDependencies>
+        <li>
+            <packageId>ArmoredAmpharos.RedwallRacesFull</packageId>
+            <displayName>Redwall Races Full</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2839978220</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/VanillaExpanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ArmoredAmpharos.RedwallRacesFull</li>
+        <li>Owlchemist.CherryPicker</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+    </loadAfter>
+</ModMetaData>

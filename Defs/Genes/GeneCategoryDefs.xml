@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>RWFB_Cosmetic_Genes</defName>
+        <label>cosmetic - redwall</label>
+        <displayPriorityInXenotype>327</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RWFB_Trait_Genes</defName>
+        <label>trait - redwall</label>
+        <displayPriorityInXenotype>328</displayPriorityInXenotype>
+    </GeneCategoryDef>
+</Defs>

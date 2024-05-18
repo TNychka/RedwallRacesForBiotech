@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<CherryPicker.DefList MayRequire="Owlchemist.CherryPicker">
+		<defName>RWFB_CherryPicker_RedSquirrel</defName>
+		<label>remove red squirrels</label>
+		<defs>
+			<li>XenotypeDef/RWFB_RedSquirrel</li>
+			<li>GeneDef/RWFB_RedSquirrel_FurGene</li>
+			<li>GeneDef/RWFB_RedSquirrel_Tail</li>
+			<li>FurDef/RWFB_Furskin</li>
+		</defs>
+	</CherryPicker.DefList>
+</Defs>

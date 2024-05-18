@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="True" Name="RWFB_Redwall_Fur_Gene">
+        <labelShortAdj>furskinned</labelShortAdj>
+        <displayCategory>RWFB_Cosmetic_Genes</displayCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <skinIsHairColor>true</skinIsHairColor>
+        <description>Carriers of this gene grow fur all over their body.</description>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Furskin</li>
+            </tags>
+        </beardTagFilter>
+        <exclusionTags>
+            <li>HairStyle</li>
+            <li>Fur</li>
+            <li>BeardStyle</li>
+        </exclusionTags>
+        <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+        <tattoosVisible>false</tattoosVisible>
+        <renderNodeProperties>
+            <li>
+                <debugLabel>Fur</debugLabel>
+                <nodeClass>PawnRenderNode_Fur</nodeClass>
+                <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+                <baseLayer>5</baseLayer>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+            </li>
+        </renderNodeProperties>
+        <fur>RWFB_Furskin</fur>
+    </GeneDef>
+    
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Badger_FurGene</defName>
+        <label>Badger Fur</label>
+        <forcedHeadTypes>
+            <li>BadgerFaceA</li>
+            <li>BadgerFaceB</li>
+            <li>BadgerFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Badger</fur>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Dormouse_FurGene</defName>
+        <label>Dormouse Fur</label>
+        <forcedHeadTypes>
+            <li>DormouseFaceA</li>
+            <li>DormouseFaceB</li>
+            <li>DormouseFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Dormouse</fur>
+    </GeneDef>
+
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Ermine_FurGene</defName>
+        <label>Ermine Fur</label>
+        <forcedHeadTypes>
+            <li>ErmineFaceA</li>
+            <li>ErmineFaceB</li>
+            <li>ErmineFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Ermine</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Ferret_FurGene</defName>
+        <label>Ferret Fur</label>
+        <forcedHeadTypes>
+            <li>FerretFaceA</li>
+            <li>FerretFaceB</li>
+            <li>FerretFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Ferret</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_GreyFox_FurGene</defName>
+        <label>Grey Fox Fur</label>
+        <forcedHeadTypes>
+            <li>GreyFoxFaceA</li>
+            <li>GreyFoxFaceB</li>
+            <li>GreyFoxFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_GreyFox</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_GreySquirrel_FurGene</defName>
+        <label>Grey Squirrel Fur</label>
+        <forcedHeadTypes>
+            <li>GreySquirrelFaceA</li>
+            <li>GreySquirrelFaceB</li>
+            <li>GreySquirrelFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_GreySquirrel</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Hare_FurGene</defName>
+        <label>Hare Fur</label>
+        <forcedHeadTypes>
+            <li>HareFaceA</li>
+            <li>HareFaceB</li>
+            <li>HareFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Hare</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Hedgehog_FurGene</defName>
+        <label>Hedgehog Fur</label>
+        <forcedHeadTypes>
+            <li>HedgehogFaceA</li>
+            <li>HedgehogFaceB</li>
+            <li>HedgehogFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Hedgehog</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Marten_FurGene</defName>
+        <label>Marten Fur</label>
+        <forcedHeadTypes>
+            <li>MartenFaceA</li>
+            <li>MartenFaceB</li>
+            <li>MartenFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Marten</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Mole_FurGene</defName>
+        <label>Mole Fur</label>
+        <forcedHeadTypes>
+            <li>MoleFaceA</li>
+            <li>MoleFaceB</li>
+            <li>MoleFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Mole</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Mouse_FurGene</defName>
+        <label>Mouse Fur</label>
+        <forcedHeadTypes>
+            <li>MouseFaceA</li>
+            <li>MouseFaceB</li>
+            <li>MouseFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Mouse</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Rabbit_FurGene</defName>
+        <label>Rabbit Fur</label>
+        <forcedHeadTypes>
+            <li>RabbitFaceA</li>
+            <li>RabbitFaceB</li>
+            <li>RabbitFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Rabbit</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Rat_FurGene</defName>
+        <label>Rat Fur</label>
+        <forcedHeadTypes>
+            <li>RatFaceA</li>
+            <li>RatFaceB</li>
+            <li>RatFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Rat</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_RedFox_FurGene</defName>
+        <label>Red Fox Fur</label>
+        <forcedHeadTypes>
+            <li>RedFoxFaceA</li>
+            <li>RedFoxFaceB</li>
+            <li>RedFoxFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_RedFox</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_RedSquirrel_FurGene</defName>
+        <label>Red Squirrel Fur</label>
+        <forcedHeadTypes>
+            <li>RedSquirrelFaceA</li>
+            <li>RedSquirrelFaceB</li>
+            <li>RedSquirrelFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_RedSquirrel</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_RiverOtter_FurGene</defName>
+        <label>RiverOtter Fur</label>
+        <forcedHeadTypes>
+            <li>RiverOtterFaceA</li>
+            <li>RiverOtterFaceB</li>
+            <li>RiverOtterFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_RiverOtter</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Sable_FurGene</defName>
+        <label>Sable Fur</label>
+        <forcedHeadTypes>
+            <li>SableFaceA</li>
+            <li>SableFaceB</li>
+            <li>SableFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Sable</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_SeaOtter_FurGene</defName>
+        <label>SeaOtter Fur</label>
+        <forcedHeadTypes>
+            <li>SeaOtterFaceA</li>
+            <li>SeaOtterFaceB</li>
+            <li>SeaOtterFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_SeaOtter</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Shrew_FurGene</defName>
+        <label>Shrew Fur</label>
+        <forcedHeadTypes>
+            <li>ShrewFaceA</li>
+            <li>ShrewFaceB</li>
+            <li>ShrewFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Shrew</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Stoat_FurGene</defName>
+        <label>Stoat Fur</label>
+        <forcedHeadTypes>
+            <li>StoatFaceA</li>
+            <li>StoatFaceB</li>
+            <li>StoatFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Stoat</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_TreeRat_FurGene</defName>
+        <label>Tree Rat Fur</label>
+        <forcedHeadTypes>
+            <li>TreeRatFaceA</li>
+            <li>TreeRatFaceB</li>
+            <li>TreeRatFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_TreeRat</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_WaterVole_FurGene</defName>
+        <label>Water Vole Fur</label>
+        <forcedHeadTypes>
+            <li>WaterVoleFaceA</li>
+            <li>WaterVoleFaceB</li>
+            <li>WaterVoleFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_WaterVole</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Wearet_FurGene</defName>
+        <label>Wearet Fur</label>
+        <forcedHeadTypes>
+            <li>WearetFaceA</li>
+            <li>WearetFaceB</li>
+            <li>WearetFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Wearet</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Weasel_FurGene</defName>
+        <label>Weasel Fur</label>
+        <forcedHeadTypes>
+            <li>WeaselFaceA</li>
+            <li>WeaselFaceB</li>
+            <li>WeaselFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Weasel</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Wildcat_FurGene</defName>
+        <label>Wildcat Fur</label>
+        <forcedHeadTypes>
+            <li>WildcatFaceA</li>
+            <li>WildcatFaceB</li>
+            <li>WildcatFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Wildcat</fur>
+    </GeneDef>
+    <GeneDef ParentName="RWFB_Redwall_Fur_Gene">
+        <defName>RWFB_Wolverine_FurGene</defName>
+        <label>Wolverine Fur</label>
+        <forcedHeadTypes>
+            <li>WolverineFaceA</li>
+            <li>WolverineFaceB</li>
+            <li>WolverineFaceC</li>
+        </forcedHeadTypes>
+        <fur>RWFB_Furskin_Wolverine</fur>
+    </GeneDef>
+</Defs>
